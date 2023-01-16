@@ -1,0 +1,7 @@
+CREATE TABLE employee(
+	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    empno INT (100) NOT NULL,
+ 	name VARCHAR (200) NOT NULL UNIQUE,
+    dob DATE (20) NULL,
+    address VARCHAR (200) NULL
+); 
